@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'ais', #Aplikasi AIS
     'django_bootstrap5', #Bootstrap
     'django_seed', # Seeder
+    'rest_framework'
 ]
 
 MIDDLEWARE = [

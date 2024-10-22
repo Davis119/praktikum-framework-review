@@ -7,6 +7,8 @@ name = "pypi"
 mysqlclient = "*"
 django-seed = "*"
 psycopg2 = "*"
+django-bootstrap5 = "*"
+djangorestframework = "*"
 
 [dev-packages]
 

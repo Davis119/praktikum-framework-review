@@ -13,5 +13,5 @@ class Students(models.Model):
   year = models.IntegerField() # Tahun angkatan atau tahun masuk
   teacher = models.ForeignKey(Teachers, on_delete=models.CASCADE) # Relasi ke tabel Teachers
 
-def __str__(self):
-    return self.name
+  def __str__(self):
+      return self.name
